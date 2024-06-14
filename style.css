@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.rang{
+    background-color: #EDF3F8;
+    padding: 30px 30px ;
+}
+.btn{
+    background-color: #BA4270;
+    border: solid 1px;
+    border-radius: 30px;
+    color: white;
+    padding: 18px 12px 18px 12px;
+
+}
+.btn:hover{
+    background-color: #36536B;
+}
+.katta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+    color: #36536B;
+}
+ul a{
+    text-decoration: none;
+    color: #36536B;
+}
+ul a:hover{
+  color: #BA4270;
+}
+.menu-btn{
+    background-color: inherit;
+    font-size: 30px;
+    border: none;
+    display: none;
+}
+.katta1{
+    display: flex;
+    gap: 218px ;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    font-size: 35px;
+    align-items: center;
+}
+.hero-img img{
+   width: 253px;
+}
+.with{
+    background-color: #1B262F;
+}
+.today{
+    color: white;
+    width: 445px !important;
+}
+.today p{
+    color: #FBFCFE;
+    margin: 20px 0;
+}
+.about-us{
+    background-color: #1B262F;
+    padding: 20px 25px 20px 25px ;
+    border: solid 3px ;
+    border-radius: 30px ;
+    font-size: 15px ;
+    color: white;
+}
+.about-us:hover{
+    color: black;
+    background-color: white;
+    border: solid 3px ;
+    border-radius: 3px black;
+}
+.today-google{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 60%;
+}
+.today h1{
+    font-size: 40px ;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 130px ;    
+    padding: 50px 0;
+}
+.today-google img{
+    width: 140px;
+}
+.easy{
+    background-color: #EDF3F8;
+}
+.implement{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 100px ;
+}
+.implement-text{
+    padding-top: 60px;
+}
+.implement-text h1{
+    padding-bottom: 20px;
+    color: #36536B;
+    font-size: 30px ;
+}
+.personal{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+.finansc-text{
+    align-items: center;
+}
+.finansc-text h1{
+    padding-left: 20px ;
+}
+.src{
+  align-items: center;
+}
+.finansc-img{
+    padding-left: 65px ;
+}
+.pricing{
+    padding: 30px 30px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.contant a{
+    color: rgb(161, 157, 157);
+
+
+}
+.contant i{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .katta1{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+     }
+     .work{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+     }
+}
+@media(max-width:670px){
+    .from {flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+
+    }
+    .personal{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+@media(max-width:650px){
+    .implement-text{ font-size: 8px;
+
+    }
+    .implement-text h1{
+        font-size: 10px;
+    }
+    .implement-img img{
+         flex-wrap: wrap;
+         flex-direction: column-reverse;
+         height: 150px;
+    }
+}
+@media(max-width:620px){
+    .finansc-text{
+       font-size: 15px;
+    }
+    .finansc-text h1{
+             font-size: 15px;
+    }
+}
+@media(max-width:620px){
+    .pricing{ flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+       
+    }
+    .contant li{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+
+    }
+    .contacty-img img{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+@media(max-width:580px){
+    header{
+        padding: 40px ;
+
+    }
+    ul{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+} 
+@media(max-width:555px){
+    .hero-text{
+        font-size: 20px ;
+     }
+} 
+
+    
+
+
+
+
+
+
